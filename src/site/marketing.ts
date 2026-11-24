@@ -1,0 +1,76 @@
+import type { Locale } from "./answers";
+
+export const marketing = {
+  fr: {
+    eyebrow: "DIASPORA IVOIRIENNE & INVESTISSEURS INTERNATIONAUX",
+    description: "Vous vivez à l’étranger et souhaitez créer une entreprise ou investir en Côte d’Ivoire ? Préparez votre dossier en français ou en anglais, estimez votre budget et organisez vos démarches avec un mandataire si nécessaire.",
+    checklist: "Préparer mes documents", appointment: "Parler de mon projet",
+    audienceTitle: "Votre projet en Côte d’Ivoire, depuis votre pays de résidence.",
+    audiences: [
+      { title: "Ivoiriens de l’extérieur", description: "Préparez votre retour entrepreneurial ou développez votre activité en Côte d’Ivoire : informations de la société, pièces à réunir et suivi du dossier dans un même espace." },
+      { title: "Investisseurs internationaux", description: "Structurez votre projet de création d’entreprise, identifiez vos besoins de domiciliation et demandez un accompagnement pour les questions qui nécessitent une étude." },
+      { title: "Un relais pour vos démarches locales", description: "Renseignez votre mandataire et préparez sa procuration. La légalisation, la traduction et la transmission des originaux sont à confirmer selon votre pays et votre dossier." },
+    ],
+    processTitle: "Comprendre les étapes avant de payer.",
+    processIntro: "La transmission à Max Bara est une demande de revue, pas un dépôt auprès du CEPICI. Aucun paiement n’est requis pour envoyer votre dossier en revue.",
+    steps: [
+      { title: "Préparez votre projet", description: "Estimez votre budget et remplissez le dossier à votre rythme." },
+      { title: "Envoyez pour revue", description: "Transmettez les pièces requises pour que l’équipe examine votre projet." },
+      { title: "Clarifiez le devis et le règlement", description: "Confirmez avec l’équipe le périmètre, les frais et les modalités de paiement avant d’engager les formalités." },
+      { title: "Suivez vos démarches", description: "Retrouvez le statut et la prochaine étape dans votre espace personnel." },
+    ],
+    packageIntro: "Choisissez selon votre besoin d’accompagnement. Les options de domiciliation, de notaire et de code import-export s’ajoutent selon le projet. Le périmètre du forfait est à confirmer avec l’équipe.",
+    packageDetails: "Découvrir les avantages", packageScope: "Périmètre et frais à confirmer avant engagement.",
+    packages: {
+      essentiel: { summary: "Pour préparer une SARL au scénario standard.", benefits: ["Un budget détaillé en FCFA pour comprendre les postes de coût.", "Les informations et pièces de votre société réunies dans un dossier.", "Le suivi du statut et des prochaines étapes dans votre espace."] },
+      serenite: { summary: "Pour avancer avec des besoins d’accompagnement à préciser.", benefits: ["Une checklist adaptée aux situations déclarées dans votre dossier.", "Des formulaires séparés pour préparer chaque document hors pièces d’identité.", "Une consultation à demander pour clarifier les démarches ou les pièces manquantes."] },
+      diaspora: { summary: "Pour les Ivoiriens et entrepreneurs installés à l’étranger.", benefits: ["Des coordonnées internationales et un pays de résidence pris en compte.", "Un espace pour renseigner le mandataire et préparer la procuration.", "Une préparation des traductions, originaux et besoins de domiciliation à discuter avec l’équipe."] },
+      agrement: { summary: "Pour un projet qui nécessite une étude spécifique.", benefits: ["Une description de votre activité et des besoins sectoriels à examiner.", "Un dossier enregistré pour étude lorsque le tarif standard ne s’applique pas.", "Un accompagnement et un montant définitif à convenir après examen."] },
+    },
+    faqTitle: "Créer une entreprise depuis l’étranger : vos questions.",
+    faq: [
+      { question: "Puis-je préparer une création d’entreprise en Côte d’Ivoire depuis l’étranger ?", answer: "Oui, vous pouvez préparer les informations et transmettre vos pièces dans votre espace. Un mandataire peut être nécessaire pour certaines démarches locales. Confirmez avec le CEPICI et le consulat ivoirien les pouvoirs, la légalisation et l’envoi des originaux ; toutes les formalités ne sont pas nécessairement réalisables à distance." },
+      { question: "Dois-je payer avant d’envoyer mon dossier ?", answer: "Non, vous pouvez transmettre votre dossier à Max Bara pour revue sans paiement préalable. Cette transmission n’est pas une immatriculation auprès du CEPICI. Clarifiez le devis, les prestations et le règlement avec l’équipe avant le dépôt officiel." },
+      { question: "La domiciliation et les frais de tiers sont-ils inclus ?", answer: "La domiciliation, le notaire et le code import-export sont des options du simulateur. Des frais liés au bail ou au secteur peuvent également s’appliquer. Vérifiez le détail et le périmètre retenu avant tout engagement." },
+      { question: "Le parcours est-il disponible en anglais ?", answer: "Les pages publiques, la checklist et les formulaires de création sont disponibles en français et en anglais. Les documents en langue étrangère destinés au dossier officiel peuvent nécessiter une traduction agréée en français." },
+    ],
+    reviewTitle: "Envoyer pour revue, puis clarifier le règlement.",
+    reviewNote: "Vous pouvez transmettre les pièces requises à Max Bara sans paiement préalable. L’équipe doit confirmer le périmètre et les frais avant tout dépôt officiel. Une transmission ici ne vaut pas immatriculation au CEPICI.",
+  },
+  en: {
+    eyebrow: "IVORIANS ABROAD & INTERNATIONAL INVESTORS",
+    description: "Living abroad and planning to start a company or invest in Côte d’Ivoire (Ivory Coast)? Prepare your application in English or French, estimate your costs, and organize local representation where needed.",
+    checklist: "Prepare my documents", appointment: "Discuss my project",
+    audienceTitle: "Build your business in Ivory Coast, wherever you live.",
+    audiences: [
+      { title: "Ivorians living abroad", description: "Prepare your entrepreneurial return or develop your business in Côte d’Ivoire. Keep company information, required documents and application progress in one workspace." },
+      { title: "International investors", description: "Outline your company formation project, identify registered-address needs, and request guidance on questions that require an individual review." },
+      { title: "Support for local formalities", description: "Add your representative’s details and prepare the power of attorney. Authentication, translations and delivery of original documents depend on your country and application." },
+    ],
+    processTitle: "Understand the steps before you pay.",
+    processIntro: "Sending an application to Max Bara requests a review; it is not a filing with CEPICI. Payment is not required to send your application for review.",
+    steps: [
+      { title: "Prepare your project", description: "Estimate your budget and complete the application at your own pace." },
+      { title: "Send for review", description: "Send the required documents so the team can examine your project." },
+      { title: "Clarify your quote and payment", description: "Confirm the service scope, fees and payment arrangements with the team before formal filing begins." },
+      { title: "Follow your application", description: "Find your status and next step in your personal workspace." },
+    ],
+    packageIntro: "Choose around your support needs. Registered address, notary and import/export services are additional options where applicable. Confirm the exact package scope with the team.",
+    packageDetails: "Explore the benefits", packageScope: "Confirm service scope and fees before proceeding.",
+    packages: {
+      essentiel: { summary: "For a SARL within the standard pricing scenario.", benefits: ["An itemized FCFA estimate to understand the cost breakdown.", "Company information and supporting documents in one application.", "Application status and next steps in your workspace."] },
+      serenite: { summary: "For projects with support needs to discuss.", benefits: ["A checklist based on the situations declared in your application.", "Separate preparation forms for each document apart from identity uploads.", "The option to request a consultation about formalities or missing documents."] },
+      diaspora: { summary: "For Ivorians and entrepreneurs living overseas.", benefits: ["International contact details and country of residence supported.", "Space for local representative details and power-of-attorney preparation.", "Translation, original-document and registered-address needs to discuss with the team."] },
+      agrement: { summary: "For investment projects that need a specific review.", benefits: ["Describe your activity and sector-specific requirements for assessment.", "Save a project for review when standard automatic pricing does not apply.", "Agree the support scope and final amount after the project is examined."] },
+    },
+    faqTitle: "Starting a company from abroad: your questions.",
+    faq: [
+      { question: "Can I prepare a company registration in Ivory Coast from abroad?", answer: "Yes. You can prepare company details and send documents through your workspace. Some local formalities may require a representative. Confirm powers of attorney, authentication and original-document delivery with CEPICI and the Ivorian consulate; an entirely remote process is not guaranteed." },
+      { question: "Do I need to pay before sending my application?", answer: "No. You can send your application to Max Bara for review before paying. This is separate from formal registration with CEPICI. Confirm the quote, included services and payment arrangements with the team before official filing." },
+      { question: "Are a registered address and third-party fees included?", answer: "Registered address, notary and import/export services are optional additions in the estimator. Lease-related or sector-specific fees may also apply. Check the itemized quote and agreed service scope before proceeding." },
+      { question: "Can I use the application in French and English?", answer: "The public pages, checklist and company application forms are available in both languages. Foreign-language documents intended for official filing may require an approved French translation." },
+    ],
+    reviewTitle: "Send for review, then clarify payment.",
+    reviewNote: "You can send the required documents to Max Bara before paying. The team must confirm the scope and fees before official filing. Submission here does not register your company with CEPICI.",
+  },
+} as const satisfies Record<Locale, object>;

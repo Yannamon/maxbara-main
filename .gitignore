@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+.vercel/
+supabase/.temp/
+.cache/
+.scout-venv/
+website-scout-output/
+*.log
+.env.local/.DS_Store

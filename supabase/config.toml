@@ -1,0 +1,8 @@
+project_id = "max-bara"
+
+[db.seed]
+enabled = false
+
+[auth.sms]
+enable_signup = true
+enable_confirmations = true
